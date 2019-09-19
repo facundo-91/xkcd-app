@@ -18,8 +18,12 @@ body {
 }
 article {
 	text-align: center;
+	max-width: 30rem;
+	margin: 0 auto;
 }
 .comic-title, .comic-num {
 	font-size: 1.5rem;
 	background-color: rgba(0, 0, 0, 0.5);
+	margin: 1rem 0;
+	padding: 1rem;
 }
