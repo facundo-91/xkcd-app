@@ -3,21 +3,23 @@ html, body {
 	border: 0;
 }
 body {
-	text-align: center;
 	background: #000046;  /* fallback for old browsers */
 	background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	background-attachment: fixed;
 	color: #FFF;
+	font-family: 'Roboto', sans-serif;
 }
 .title {
-	font-family: 'Roboto', sans-serif;
 	text-transform: uppercase;
 	text-shadow: 5px 1px 10px #000;
 	font-size: 3rem;
-	margin: 2rem 0;
+	text-align: center;
 }
 article {
-	width: 1200px;
-	margin: auto;
+	text-align: center;
+}
+.comic-title, .comic-num {
+	font-size: 1.5rem;
+	background-color: rgba(0, 0, 0, 0.5);
 }
