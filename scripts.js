@@ -2,7 +2,7 @@
 let comicImage = document.querySelector('.comic-img');
 let comicTitle = document.querySelector('.comic-title');
 let comicNumber = document.querySelector('.comic-num');
-let url = 'https://xkcd.com/info.0.json';
+let url = 'https://xkcdapi.now.sh/';
 
 function fetchInfo() {
 	// Create XHR Object
