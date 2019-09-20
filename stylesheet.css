@@ -21,6 +21,10 @@ article {
 	max-width: 30rem;
 	margin: 0 auto;
 }
+.comic-img {
+	width: 100%;
+	height: auto;
+}
 .comic-title, .comic-num {
 	font-size: 1.5rem;
 	background-color: rgba(0, 0, 0, 0.5);

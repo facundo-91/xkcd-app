@@ -13,7 +13,7 @@ function fetchInfo() {
 	request.onload = function() {
 		if (this.status === 200) {
 			let response = JSON.parse(this.responseText);
-			comicImage.src = response.img;
+			comicImage.src = response.imgRetina;
 			comicImage.alt = response.alt;
 			comicTitle.innerHTML = 'Title: ' + response.title;
 			comicNumber.innerHTML = 'Comic Nº: ' + response.num;
